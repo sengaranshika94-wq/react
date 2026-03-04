@@ -1,0 +1,23 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-color: black;
+  color: white;
+  font-size: 40px;
+}
+.count{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;  
+}
+button{
+  font-size: 30px;
+}
