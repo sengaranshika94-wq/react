@@ -1,0 +1,24 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+html,body{
+  height:100%;
+  width:100%;
+  font-family: Arial, sans-serif;
+}
+button{
+  background-color: rgb(228, 159, 159);
+  font-size: 30px;
+  padding: 10px 15px;
+  margin: 10px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.783);
+}
+button:active{
+  scale: 0.95;
+   box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.267);
+}
